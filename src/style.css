@@ -22,6 +22,11 @@ li {
 small {
     max-width: 700px;
 }
+input {
+    background-color: #fffbfa;
+    border-radius: 4px;
+    border: none;
+  }
 #weather-app {
     max-width: 700px;
 }
@@ -44,6 +49,30 @@ small {
     border: double 2px white;
     
 }
+#search-box {
+    float: right;
+    margin: 10px 5px 20px 0;
+    display: block;
+  }
+#submit-button {
+    font-family: "Caveat", cursive;
+    text-align: center;
+    color: white;
+    background:  #45a7ca;
+  }
+  #current-location {
+  text-align: center;
+  color: white;
+  background:  #45a7ca;
+  border: none;
+  border-radius: 4px;
+  height: 26px;
+  }
+  ::placeholder {
+    font-family: "Caveat", cursive;
+    text-align: center;
+    color: #45a7ca;
+  }
 .weather-details li {
     font-size: 8pt;
     font-family: "Overpass", sans-serif;
