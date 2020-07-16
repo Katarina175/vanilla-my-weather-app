@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Weather App</title>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
     <script
       src="https://kit.fontawesome.com/e12eecda3d.js"
       crossorigin="anonymous"
@@ -30,11 +31,14 @@
                 
                 <div class="row">
                     <div class="col-3 pl-5 pr-0">
-                        <span id="current-weather">80 </span><span id="degrees">°F | °C </span>
-                        <ul>
-                            <li id="wind">Wind 13 mph</li>
-                            <li id="humidity">Humidity: 8%</li>
-                        </ul>
+                        <span id="current-weather"></span><span id="degrees">°F | °C </span>
+                        <div class="weather-details">
+                            <ul>
+                                <li>Wind <span id="wind"></span> mph</li>
+                                <li>Humidity: <span id="humidity"></span>%</li>
+                            </ul>
+                        </div>
+                        
                     </div>
                     <div class="col-3 pr-2 pl-4">
                         <i class="fas fa-sun" id="current-weather-icon"></i>

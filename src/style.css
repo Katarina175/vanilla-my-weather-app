@@ -44,9 +44,14 @@ small {
     border: double 2px white;
     
 }
+.weather-details li {
+    font-size: 8pt;
+    font-family: "Overpass", sans-serif;
+    color: white;
+}
 
 
-#wind {
+/* #wind {
     font-size: 8pt;
     font-family: "Overpass", sans-serif;
     color: white;
@@ -55,7 +60,7 @@ small {
     font-size: 8pt;
     font-family: "Overpass", sans-serif;
     color: white;
-}
+} */
 #degrees {
     color: white;
 }
@@ -64,6 +69,7 @@ small {
     font-size: 30px;
     color: white;
     font-family: "Caveat", cursive;
+    text-transform: capitalize;
 }
 .app-content{
     margin-top: 30px
