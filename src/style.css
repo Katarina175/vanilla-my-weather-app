@@ -29,10 +29,13 @@ input {
   }
 #weather-app {
     max-width: 700px;
+    background-size: cover;
+
 }
 .weather-app-wrapper {
     max-width: 700px;
     margin: 0 auto;
+    
 }
 
 #current-weather {
@@ -79,17 +82,6 @@ input {
     color: white;
 }
 
-
-/* #wind {
-    font-size: 8pt;
-    font-family: "Overpass", sans-serif;
-    color: white;
-}
-#humidity {
-    font-size: 8pt;
-    font-family: "Overpass", sans-serif;
-    color: white;
-} */
 #degrees {
     color: white;
 }
@@ -100,6 +92,17 @@ input {
     font-family: "Caveat", cursive;
     text-transform: capitalize;
 }
+#weather-forcast{
+    padding-top: 50px;
+    padding-bottom: 20px;
+
+}
+#days-forcast {
+    font-family: "Caveat", cursive;
+    font-size: 20px;
+    font-weight: lighter;
+    color: #45a7ca;
+  }
 .app-content{
     margin-top: 30px
 }
@@ -113,5 +116,17 @@ input {
 .weather-temperature .active:hover{
     text-decoration: none;
 }
+.weekly-temps-style {
+    font-family: "Overpass", sans-serif;
+  }
+.icons {
+    background-color: #9fe3ba;
+    color: white;
+    border-radius: 50%;
+    margin: 0 auto;
+    height: 40px;
+    width: 40px;
+    border: 1px solid #fdd1d0;
+  }
 
 
