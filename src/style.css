@@ -106,5 +106,12 @@ input {
 .overview {
     margin-bottom: 40px;
 }
+.weather-temperature .active {
+    color: white;
+    cursor: default;
+}
+.weather-temperature .active:hover{
+    text-decoration: none;
+}
 
 
