@@ -3,6 +3,7 @@
     font-family: "Caveat", cursive;
     font-weight: bolder;
     color: #45a7ca;
+    /* color: #B7AAA2; */
     font-size: 2.5rem;
     line-height: 1.2;
 }
@@ -19,6 +20,10 @@ li {
     font-size: 24px;
     
 }
+h3 {
+    text-align: center;
+}
+
 small {
     max-width: 700px;
 }
@@ -27,10 +32,14 @@ input {
     border-radius: 4px;
     border: none;
   }
+  img{
+      position: relative;
+      right: 6px;
+  }
+  
 #weather-app {
-    max-width: 700px;
-    background-size: cover;
 
+    background-size: cover;
 }
 .weather-app-wrapper {
     max-width: 700px;
@@ -61,7 +70,7 @@ input {
     font-family: "Caveat", cursive;
     text-align: center;
     color: white;
-    background:  #45a7ca;
+    background: #45A7CA;
   }
   #current-location {
   text-align: center;
@@ -74,7 +83,7 @@ input {
   ::placeholder {
     font-family: "Caveat", cursive;
     text-align: center;
-    color: #45a7ca;
+    color: #45A7CA;
   }
 .weather-details li {
     font-size: 8pt;
@@ -92,16 +101,17 @@ input {
     font-family: "Caveat", cursive;
     text-transform: capitalize;
 }
-#weather-forcast{
-    padding-top: 50px;
+#weather-forecast{
+    /* padding-top: 100px; */
     padding-bottom: 20px;
-
 }
-#days-forcast {
+
+#forecast {
     font-family: "Caveat", cursive;
     font-size: 20px;
     font-weight: lighter;
-    color: #45a7ca;
+    color: #45A7CA;
+    padding-top: 110px;
   }
 .app-content{
     margin-top: 30px
@@ -118,15 +128,18 @@ input {
 }
 .weekly-temps-style {
     font-family: "Overpass", sans-serif;
+    font-size: small;
+    font-weight: lighter;
   }
 .icons {
-    background-color: #9fe3ba;
+    /* background-color: #9fe3ba;
     color: white;
-    border-radius: 50%;
+    border-radius: 50%; */
+    /* margin: 0 auto; */
+    /* height: 40px;
+    width: 40px; */
+    /* border: 1px solid #fdd1d0; */
     margin: 0 auto;
-    height: 40px;
-    width: 40px;
-    border: 1px solid #fdd1d0;
   }
 
 
