@@ -1,12 +1,4 @@
-#current-city {
-    padding-top: 20px;
-    font-family: "Caveat", cursive;
-    font-weight: bolder;
-    color: #45a7ca;
-    /* color: #B7AAA2; */
-    font-size: 2.5rem;
-    line-height: 1.2;
-}
+
 ul {
     margin: 0;
     padding: 0;
@@ -32,10 +24,19 @@ input {
     border-radius: 4px;
     border: none;
   }
-  img{
+img{
       position: relative;
       right: 6px;
   }
+#current-city {
+    padding-top: 20px;
+    font-family: "Caveat", cursive;
+    font-weight: bolder;
+    color: #45a7ca;
+    /* color: #B7AAA2; */
+    font-size: 2.5rem;
+    line-height: 1.2;
+}
   
 #weather-app {
 
@@ -93,6 +94,7 @@ input {
 
 #degrees {
     color: white;
+    padding-left: 10px;
 }
 #weather-saying {
     font-weight: 700;
@@ -102,7 +104,6 @@ input {
     text-transform: capitalize;
 }
 #weather-forecast{
-    /* padding-top: 100px; */
     padding-bottom: 20px;
 }
 
